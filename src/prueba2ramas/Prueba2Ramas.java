@@ -15,11 +15,7 @@ public class Prueba2Ramas {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("A partir de este commit la RamaA para el lider y la RamaB para el colaborador");           
-            
-        ClaseB obxB=new ClaseB();
-        obxB.suma();
-        obxB.sumarIlimitado();     
-        }
+        System.out.println("A partir de este commit la RamaA para el lider y la RamaB para el colaborador");
+    }
     
     }
