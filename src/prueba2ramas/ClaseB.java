@@ -24,4 +24,15 @@ public class ClaseB {
             resultado=sumar1+sumar2;
             System.out.println("El resultado de la suma es= "+resultado);
     }
+    public void sumarIlimitado(){
+        Scanner ler=new Scanner (System.in);
+        float sumar,Rsumar=0;
+            do {
+                System.out.println("Introduzca cantidad a sumar, con 0 o menor cancela el bucle");
+                sumar=ler.nextFloat();
+                Rsumar=sumar+Rsumar;
+                
+            } while(sumar>0);
+            System.out.println("Resultado= "+Rsumar);
+    }
 }
