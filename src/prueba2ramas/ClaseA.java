@@ -10,5 +10,8 @@ package prueba2ramas;
  * @author Samuel
  */
 public class ClaseA {
-    
+    public void verMensaje(){
+        System.out.println("Este mensaje solo se ve en la rama A");
+        System.out.println("Si se ve tambien en la B es que se hizo un merge");
+    }
 }

@@ -16,6 +16,8 @@ public class Prueba2Ramas {
      */
     public static void main(String[] args) {
         System.out.println("A partir de este commit la RamaA para el lider y la RamaB para el colaborador");
+        ClaseA obx= new ClaseA();
+        obx.verMensaje();
     }
     
 }
